@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Pacifico&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.navbar .navbar-brand{
+    color: White;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+.nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    color: tomato !important;
+}
+.carousel h5 {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 2px 2px green;
+}
+
+/*Card*/
+#director {
+    padding: 50px 0;
+    background-color: rgb(236, 236, 236);
+}
+#director h1{
+    text-align: center;
+    margin: 40px 0;
+}
+.card{
+    margin: 10px;
+}
+/*Footer Style*/
+footer {
+    padding: 20px 0;
+    background-color: gray;
+}
+footer p {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+footer a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    margin-left: 5px;
+}
